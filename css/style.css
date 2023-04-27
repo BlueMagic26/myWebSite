@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Josefin+Sans&family=Kanit:wght@200;600&family=Mynerve&family=Pacifico&family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Josefin+Sans&family=Kanit:wght@300;400&family=Mynerve&family=Pacifico&family=Shantell+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Menü */
+nav{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+    margin-top: 8px;
+}
+.logospan{
+    color: #ea1538;
+}
+.navUl li a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navUl li a:hover{
+    color: orange;
+    transition: .3s;
+}
+.sl{
+    color: #ea1538;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.sl:hover{
+    color: white;
+    transition: .4s;
+}
+
+/* Hero İmage */
+.hero-img{
+    font-family: 'Kanit', sans-serif;
+    height: 800px;
+    background-image: linear-gradient(rgb(31,31,50,0.3),rgb(31,31,50,0.3)),url(../img/matrixbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Birinci Bölüm */
+.row-b1{
+    min-height: 800px;
+    padding: 50px 0;
+}
+.bir-sol{
+    background-color: black;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.bir-sol h1{
+    margin: 0;
+}
+.bir-sol p{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px 40px;
+    width: 80%;
+}
+@media screen and (max-width:470px) {
+    .bir-sol p{
+        color: white;
+        font-size: 15px;
+        margin: 0;
+        padding: 20px 10px;
+        width: 100%;
+    }
+}
+.b_anime{
+    animation: baslik 2s 2s infinite;
+}
+@keyframes baslik{
+    0%{
+        color: black;
+    }
+    25%{
+        color: #ea1538;
+    }
+    50%{
+        color: #ea1538;
+    }
+    75%{
+        color: #ea1538;
+    }
+    100%{
+        color: black;
+    }
+}
+.giff img{
+    width: 100%;
+}
+@media screen and (max-width:470px) {
+    .vidyo{
+        width: 350px;
+    }
+}
+
+/* İkinci Bölüm */
+.bolum2{
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+.row-b2{
+    min-height: 800px;
+    padding: 50px 0;
+}
+.iki-sol{
+    color: white;
+    padding: 10px 50px;
+}
+.ytnk{
+    color: #ea1538;
+}
+.iki-sag{
+    padding: 10px 50px;
+    background-color: rgb(31, 31, 50);
+    border-radius: 5px;
+}
+.tanitim{
+    color: #ea1538;
+}
+.iki-sag p{
+    color: white;
+}
+
+/* Üçüncü Bölüm */
+.bolum3{
+    background-color: #282A3A;
+    font-family: 'Kanit', sans-serif;
+}
+.row-b3{
+    min-height: 800px;
+    padding: 50px 0;
+}
+.hizmetler{
+    padding: 10px 20px;
+    background-color: black;
+    text-align: center;
+    min-height: 320px;
+    max-height: 410px;
+    border-radius: 5px;
+}
+.hizmetler i{
+    font-size: 150px;
+    color: white;
+}
+.hizmetler h4{
+    color: #ea1538;
+    margin: 12px 0;
+}
+.hizmetler p{
+    color: white;
+}
+@media screen and (max-width:470px) {
+    .hizmetler{
+        padding: 10px 10px;
+        background-color: black;
+        text-align: center;
+        min-height: 250px;
+        max-height: 410px;
+        border-radius: 5px;
+    }
+    .hizmetler i{
+        font-size: 100px;
+        color: white;
+    }
+}
+
+/* Dördüncü Bölüm */
+.bolum4{
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+.row-b4{
+    min-height: 600px;
+    padding: 50px 0;
+}
+.clsm{
+    color: #ea1538;
+    margin: 20px 0;
+    text-align: center;
+}
+/* OWL Carousel */
+.homeSlider{
+    margin: auto;
+    background-color: black;
+}
+.homeSlider .owl-dots .owl-dot span{
+    width: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 55px;
+}
+.homeSlider .owl-nav{
+    position: relative;
+}
+.homeSlider .owl-nav .owl-next{
+    position: absolute;
+    
+    right:30%;
+}
+.homeSlider .owl-nav .owl-prev{
+    position: absolute;
+    
+    left: 30%;
+}
+
+
+.homeSlider .owl-nav .owl-next i{
+    font-size: 40px;
+    background-color: transparent;
+    color: #ea1538;
+    border-radius: 50%;
+}
+.homeSlider .owl-nav .owl-prev i{
+    font-size: 40px;
+    background-color: transparent;
+    color: #ea1538;
+    border-radius: 50%;
+}
+
+
+/* Besinci Bölüm */
+.bolum5{
+    background-color: #282A3A;
+    font-family: 'Kanit', sans-serif;
+}
+.row-b5{
+    min-height: 800px;
+    padding: 50px 0;
+}
+.iltsm{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.ilt1{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.ilt2{
+    border-bottom: 1px solid white;
+}
+.ilt3{
+    border-right: 1px solid white;
+}
+.ilt4 a i{
+    font-size: 25px;
+}
+.ilt4 a i:hover{
+    color: #ea1538;
+}
+.iltsm i{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.altb{
+    color: #ea1538;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.mailp{
+    font-size: 13px;
+}
+.mesajGonder{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    outline: none;
+}
+.mesajGonder:focus{
+    border: 2px solid #ea1538;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    outline: none;
+}
+textarea:focus{
+    border: 2px solid #ea1538;
+}
+.submitButon{
+    background-color: #ea1538;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 100%;
+    padding: 8px 0;
+}
+.submitButon:hover{
+    background-color: white;
+    color: #ea1538;
+}
+
+/* Perde 2-3-4 */
+.custom-shape-divider-bottom-1677764562 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677764562 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.custom-shape-divider-bottom-1677764562 .shape-fill {
+    fill: rgba(173,148,143,255);
+}
+@media screen and (max-width:470px) {
+    .perdes{
+        display: none;
+    }
+}
+
+
+
+
+
+
